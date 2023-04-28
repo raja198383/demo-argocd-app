@@ -7,11 +7,11 @@ spec:
   revisionHistoryLimit: 3
   selector:
     matchLabels:
-      app: frontend-ui
+      app: guestbook-ui
   template:
     metadata:
       labels:
-        app: frontend-ui
+        app: guestbook-ui
     spec:
       containers:
       - image: gcr.io/heptio-images/ks-guestbook-demo:0.2
